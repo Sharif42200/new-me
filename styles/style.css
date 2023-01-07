@@ -1,0 +1,268 @@
+* {
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header section */
+
+header {
+    height: 809px;
+    background-image: url(../images/banner/banner2.png);
+}
+
+.banner {
+    text-align: right;
+    padding-top: 200px;
+    padding-right: 200px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    margin-bottom: 20px;
+    color: #151414;
+    /* margin-top: 200px;
+    margin-right: 200px; */
+}
+
+.banner-description {
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 20px;
+}
+
+.banner-button {
+    padding: 20px 25px;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    ;
+}
+
+/* About me styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about {
+    text-align: center;
+    margin-top: 130px;
+    padding: 130px 150px;
+    background: #D3D3D3;
+    border-radius: 10px;
+}
+
+.section-title {
+    /* text-align: center; */
+    /* margin-top: 130px; */
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.section-description {
+    font-size: 18px;
+    /* text-align: center; */
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about .info-title {
+    font-size: 20px;
+    color: #757575;
+}
+
+.about .info-description {
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
+
+/* failure styles */
+
+.failure {
+    display: flex;
+    margin-top: 150px;
+}
+
+.fail {
+    padding-top: 50px;
+}
+
+.container {
+    /* margin-left: 750px; */
+}
+
+.failure-title {
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 150px;
+    margin-bottom: 25px;
+}
+
+.failure-description {
+    color: #444343;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+    list-style: none;
+    /* margin-right: 10px;
+    margin-left: 10px; */
+}
+
+ul li i {
+    color: aqua;
+}
+
+/* my plan styles */
+
+.my-plan {
+    margin-top: 150px;
+}
+
+.plan-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.plans {
+    padding: 30px;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.plan-info {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.plan-to-do {
+    font-weight: 500;
+    font-size: 20px;
+    color: #737272;
+}
+
+/* gradient styles */
+.gradient {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding: 70px 70px;
+    /* background-image: url(../images/watch.png); */
+    background-repeat: no-repeat;
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(../images/watch.png);
+    ;
+    border-radius: 10px;
+    background-size: cover;
+
+}
+
+.title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    text-align: justify;
+}
+
+.button-primary {
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: 24px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    border-style: none;
+}
+
+/* footer section */
+
+.future-container {
+    background: #151414;
+    display: flex;
+    gap: 100px;
+    padding: 150px 150px;
+}
+
+.future-scope {
+
+    width: 485px;
+    height: 317px;
+}
+
+.future-title {
+
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 16px;
+}
+
+.future-description {
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.mail {
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.phone {
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+img{
+    margin-left: 10px;
+}
+.subscribe-plz {
+    width: 325px;
+    height: 204px;
+}
+
+.subscribe {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    padding-top: 0px;
+    margin-bottom: 30px;
+}
+.email{
+    padding: 20px 150px 20px 20px ;
+    border-radius: 5px;
+    color: #F3F3F3;
+    background-color: #151414;
+}
+.do-subscribe{
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: 24px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    border-style: none;
+}
